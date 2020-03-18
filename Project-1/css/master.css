@@ -1,0 +1,220 @@
+*{
+    background-color: rgb(231, 231, 231);
+}
+
+body {
+    margin-left: 0px;
+    width: 100vw;
+}
+
+/*HEADER*/
+
+header {
+    margin: 0px;
+    margin-top: -20px;
+    height: 102vh;
+    width: 100vw;
+    background-image: url("../images/bar.jpg");
+    background-size: fill;
+    color: rgb(231, 231, 231);
+    text-align: center;
+}
+
+#title {
+    background-color: transparent;
+    margin: auto;
+    padding: 10vh 0;
+    width: 90%;
+}
+
+#subheader { /*"Learn How to Make"*/
+    background-color: transparent;
+    line-height: 5vh;
+    font-size: 10vh;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+}
+
+hr {
+    background-color: transparent;
+    width: 40vw;
+}
+
+#header { /*"5 Classic Cocktails"*/
+    background-color: transparent;
+    font-size: 20vh;
+    line-height: 5vh;
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+}
+
+#scroll, #scroll2 {
+    background-color: transparent;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+#scroll {
+    top: 8vh;
+}
+
+/*Main Navigation bar*/
+#menu {
+    height: 9vh;
+    position: relative;
+    bottom: 5vh;
+    background: rgba(27, 27, 27, 0.89);
+}
+    
+.nav {
+    background-color: transparent;
+    line-height: 9vh;
+    padding: 0 10vw 0 7vw;
+    list-style-type: none;
+    display: inline;
+    font-size: 5vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+header a:link, header a:visited {
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(231, 231, 231, .8)
+}
+
+header a:hover {
+    color: rgb(165, 81, 42);
+}
+
+/*BREAK*/
+
+.break {
+    height: 30px;
+}
+
+
+
+/* COCKTAILS LIST */
+
+#cocktail-list {
+    width: 100%;
+    height: 100vh;
+    padding: auto;
+    margin: auto;
+}
+
+.cocktail {
+    margin: .5%;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    height: 445px;
+    width: 18.5%;
+    box-shadow: gray 5px 5px 5px;
+}
+
+#the-cocktails {
+    margin: 0px;
+    padding: 5px 0 5px 15px;
+    background-color: rgba(27, 27, 27);
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: rgb(165, 81, 42);
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.list-pic {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+#scroll2 {
+    bottom: 15px;
+    text-align: center;
+}
+
+
+/*TABLE*/
+
+#table {
+    margin: auto;
+    width: 90%;
+    height: 90vh;
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    position: relative;
+    top: 20px;
+}
+
+#table-head {
+    padding-bottom: 12px;
+    background-color: rgba(27, 27, 27);
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: rgb(165, 81, 42);
+}
+
+th, td {
+    font-family: 'Oswald', sans-serif;
+    border-left: 1px solid rgb(161, 161, 161);
+    border-right: 1px solid rgb(161, 161, 161);
+    width: 14%;
+}
+
+#liquor-types {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    border-top: 1px solid rgb(161, 161, 161);
+}
+
+.table-pic {
+    margin: auto;
+    width: 100%;
+}
+
+
+figcaption {
+    font-size: small;
+}
+
+/*MENU*/
+
+#cocktails-nav, #table-nav {
+    margin-top: 1px;
+    font-size: small;
+    color: rgb(165, 81, 42);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.cocktails-menu, .table-menu {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.table-menu {
+    position: relative;
+    left: 35vw;
+}
+
+main a, main a:visited{
+    text-decoration: none;
+    color: rgb(165, 81, 42);
+}
+
+main a:hover {
+    color: rgba(27, 27, 27, 0.89);
+}
+
+
+
+
