@@ -1,0 +1,64 @@
+header {
+    margin-top: -20px;
+    width: 320px;
+    height: 160px;
+    background-image: url("../images/balloon.png");
+    background-size: 100%;
+    color: lightblue;
+}
+
+h1 {
+    position: relative;
+    left: 30px;
+    top: 35px;
+    text-shadow: 3px 3px 2px black;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    font-size: 55px;
+
+}
+
+main {
+    height: 400px;
+    width: 700px;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+#message-container {
+    width: 700px;
+    position: fixed;
+    bottom: 90px;
+}
+#message-box {
+    position: fixed;
+    bottom: 30px;
+    width: 700px;
+    height: 50px;
+    border: solid black 1px;
+
+}
+
+#message-input {
+    margin: 10px;
+    width: 80%;
+    height: 50%;
+}
+
+#send-button {
+    background-color: lightblue;
+}
+
+#reply-button {
+    background-color: orange;
+}
+
+.out-message {
+    color: rgb(108, 191, 219);
+    background-color: rgba(211, 211, 211, 0.541);
+}
+
+.in-message {
+    color:rgb(221, 133, 0);
+    background-color: rgba(161, 161, 161, 0.521);
+}
