@@ -1,0 +1,49 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    margin: auto;
+}
+
+#todo-list-container {
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#input {
+    margin: auto;
+    width: 35%;
+    border-bottom: solid 1px black;
+}
+
+#input-task {
+    width: 90%;
+    border: none;
+}
+
+#add-task {
+    border: none;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ol:hover {
+    cursor: pointer;
+    text-decoration: line-through;
+    text-decoration-color: rgba(255, 0, 0, 0.479);
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: line-through;
+}
